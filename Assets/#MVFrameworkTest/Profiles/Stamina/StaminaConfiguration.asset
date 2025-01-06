@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1f34ccbc744b98b645a79b819b8a62, type: 3}
+  m_Name: StaminaConfiguration
+  m_EditorClassIdentifier: 
+  autoShow: 1
+  maxGeneralEnergy: 100
+  initGeneralEnergy: 100
+  segments: 4
+  segmentPenalty: 5
+  extraPenalty: 15
+  criticalThreshold: 25
+  generalBarColor: {r: 1, g: 1, b: 1, a: 1}
+  criticalBarColor: {r: 0.7924528, g: 0.37445027, b: 0.23549305, a: 1}
+  extraPenaltyBarColor: {r: 0.69803923, g: 0.10980392, b: 0.10980392, a: 1}
+  penaltyBarColor: {r: 1, g: 0.64705884, b: 0.64705884, a: 1}
+  ColorBarFadeTime: 0.5
+  temporalEnergyDepletionRate: 25
+  temporalEnergyRecoveryRate: 15
+  temporalUseBarColor: {r: 0.40784314, g: 0.5254902, b: 0.62352943, a: 0.5882353}
+  temporalRecoveryBarColor: {r: 0.7176471, g: 0.7176471, b: 0.7176471, a: 0.5882353}
